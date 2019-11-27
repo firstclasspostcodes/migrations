@@ -1,6 +1,6 @@
 {
   "name": "@firstclasspostcodes/migrations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy data migrations using RDS HTTP Data API",
   "bin": "bin/cli.sh",
   "main": "lib/index.js",
