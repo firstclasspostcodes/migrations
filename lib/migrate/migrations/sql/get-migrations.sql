@@ -1,1 +1,1 @@
-SELECT * FROM migrations ORDER BY timestamp DESC LIMIT 1000;
+SELECT * FROM __migrations__ ORDER BY timestamp DESC LIMIT 1000;

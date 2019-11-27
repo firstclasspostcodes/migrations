@@ -1,1 +1,1 @@
-INSERT INTO migrations (filename, hash) VALUES (:filename, :hash);
+INSERT INTO __migrations__ (filename, hash) VALUES (:filename, :hash);
