@@ -1,0 +1,49 @@
+{
+  "name": "@firstclasspostcodes/migrations",
+  "version": "0.0.1",
+  "description": "Easy data migrations using RDS HTTP Data API",
+  "bin": "bin/cli.sh",
+  "main": "lib/index.js",
+  "scripts": {
+    "commit": "npx git-cz",
+    "lint": "eslint .",
+    "run": "node lib/index.js",
+    "test": "cross-env NODE_ENV=test jest --passWithNoTests --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstclasspostcodes/migrations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firstclasspostcodes/migrations/issues"
+  },
+  "homepage": "https://github.com/firstclasspostcodes/migrations#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "aws-sdk": "^2.579.0",
+    "aws-sdk-mock": "^4.5.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "git-cz": "^3.3.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "jest-runner-eslint": "^0.7.5",
+    "metro-memory-fs": "^0.57.0"
+  },
+  "peerDependencies": {
+    "aws-sdk": "^2.579.0"
+  },
+  "dependencies": {
+    "dot-object": "^2.1.2",
+    "glob": "^7.1.6",
+    "listr": "^0.14.3",
+    "minimist": "^1.2.0",
+    "rc": "^1.2.8"
+  }
+}

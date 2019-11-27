@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS migrations (
+  id SERIAL PRIMARY KEY,
+  timestamp TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  filename text NOT NULL,
+  hash text NOT NULL
+);

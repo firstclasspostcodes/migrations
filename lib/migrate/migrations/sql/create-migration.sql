@@ -1,0 +1,1 @@
+INSERT INTO migrations (filename, hash) VALUES (:filename, :hash);
