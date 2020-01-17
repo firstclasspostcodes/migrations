@@ -27,7 +27,7 @@
     "aws-sdk": "^2.579.0",
     "aws-sdk-mock": "^5.0.0",
     "cross-env": "^6.0.3",
-    "eslint": "^6.7.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "git-cz": "^3.3.0",
