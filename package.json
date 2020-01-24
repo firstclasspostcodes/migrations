@@ -34,7 +34,7 @@
     "husky": "^4.0.10",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5",
-    "metro-memory-fs": "^0.57.0"
+    "metro-memory-fs": "^0.58.0"
   },
   "peerDependencies": {
     "aws-sdk": "^2.605.0"
