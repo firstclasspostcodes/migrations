@@ -31,7 +31,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0",
     "git-cz": "^4.0.0",
-    "husky": "^4.0.10",
+    "husky": "^4.2.1",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.5",
     "metro-memory-fs": "^0.57.0"
