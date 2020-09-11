@@ -40,7 +40,7 @@
     "aws-sdk": "^2.610.0"
   },
   "dependencies": {
-    "dot-object": "^2.1.2",
+    "dot-object": "^2.1.4",
     "glob": "^7.1.6",
     "listr": "^0.14.3",
     "minimist": "^1.2.0",
